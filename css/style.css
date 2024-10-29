@@ -1,0 +1,132 @@
+/* Additional Styles for Responsive Header Photo */
+.header-photo {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 576px) {
+  /* Small devices (576px and up) */
+  .header-photo {
+    max-height: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium devices (768px and up) */
+  .header-photo {
+    max-height: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Large devices (992px and up) */
+  .header-photo {
+    max-height: 110px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Extra large devices (1200px and up) */
+  .header-photo {
+    max-height: 140px;
+  }
+}
+
+@media (min-width: 576px) {
+     /* Adjust the height for screens wider than 576px */
+     section {
+       height: 30vh;
+     }
+   }
+
+   @media (min-width: 768px) {
+     /* Adjust the height for screens wider than 768px */
+     section {
+       height: 40vh;
+     }
+   }
+
+   @media (min-width: 992px) {
+     /* Adjust the height for screens wider than 992px */
+     section {
+       height: 50vh;
+     }
+   }
+
+   @media (min-width: 1200px) {
+     /* Adjust the height for screens wider than 1200px */
+     section {
+       height: 60vh;
+     }
+   }
+
+   @media (min-width: 1530px) {
+     /* Adjust the height for screens wider than 1200px */
+     section {
+       height: 70vh;
+     }
+   }
+
+   @media (min-width: 1980px) {
+     /* Adjust the height for screens wider than 1200px */
+     section {
+       height: 80vh;
+     }
+   }
+
+
+
+/* Style for the fixed bottom footer */
+.footer.fixed-bottom {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    color: #495057;
+}
+
+/* Style for the logo and address */
+.footer-logo {
+    float: left;
+    margin-left: 20px;
+}
+
+.footer-address {
+    float: right;
+    margin-right: 20px;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust this value as needed */
+}
+
+.download-button {
+    margin-top: 18px; /* Adjust the margin as needed */
+}
+
+table {
+    border: 2px solid #279EFF; /* Set border color and thickness */
+    width: 100%; /* Adjust table width as needed */
+    margin: auto; /* Center the table */
+
+}
+
+table th,
+table td {
+    border: 2px solid #279EFF; /* Set cell border color and thickness */
+}
+
+table thead th {
+    background-color: #279EFF; /* Set header background color */
+    color: #fff; /* Set header text color */
+}
+
+
+h6{
+  color: #5272F2;
+  font-weight: bold;
+  font-size: 16px;
+}
